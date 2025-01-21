@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;  /* Dunkler Hintergrund für die gesamte Seite */
+    color: white;  /* Weiße Schriftfarbe für den gesamten Text */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.header {
+    background: #1e1e1e;  /* Dunklerer Hintergrund für die Kopfzeile */
+    color: #fff;  /* Weiße Schriftfarbe für den Header */
+    padding: 10px 0;
+    text-align: center;
+}
+
+.ticket-form, .ticket-list {
+    background: #1e1e1e;  /* Dunkler Hintergrund für die Form und Ticketliste */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);  /* Dunkler Schatten */
+    margin-top: 20px;
+}
+
+.ticket-form input, .ticket-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #333;  /* Noch dunklerer Hintergrund für Eingabefelder */
+    color: white;  /* Weißer Text in den Feldern */
+}
+
+.ticket-form button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.ticket-form button:hover {
+    background-color: #218838;
+}
+
+.ticket {
+    border-bottom: 1px solid #444;  /* Hellerer Trenner für Tickets */
+    padding: 10px 0;
+}
+
+.ticket h3, .ticket p {
+    color: white;  /* Weißer Text für Ticket-Titel und Beschreibung */
+}
+
+.ticket:last-child {
+    border-bottom: none;
+}
